@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/create-content.css">
+    <title>Content</title>
+</head>
+<body>
+    <h2>Nhap noi dung</h2>
+    <div id="error-message"></div>
+    
+    <form id="create-form" action="/create-content" method='POST'>
+        <textarea id="content" class="input" rows="6" name='content'></textarea>
+        <div id="remain-characters">200 characters left</div>
+        <input type="submit" value="Gửi" />
+    </form>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./create-content.js"></script>
+</body>
+</html>
