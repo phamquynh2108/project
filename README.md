@@ -1,5 +1,4 @@
 # project
-cmd
-npm install
-run: npm start
+cmd: npm install.
+run: npm start.
 
